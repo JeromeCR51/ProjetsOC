@@ -121,6 +121,9 @@ header p{
 	margin-left: 40px;
 	width: 90%;
 }
+#formation h3{
+	margin: 0;
+}
 #formation i{
 	text-transform: uppercase;
 }
@@ -184,6 +187,9 @@ header p{
 	margin-top: 50px;
 	margin-left: 40px;
 	width: 90%;
+}
+#experience h3{
+	margin: 0;
 }
 #experience i{
 	text-transform: uppercase;
@@ -268,6 +274,9 @@ footer{
 	margin-top: 50px;
 	margin-left: 40px;
 	width: 90%;
+}
+footer h3{
+	margin: 0;
 }
 footer i{
 	text-transform: uppercase;

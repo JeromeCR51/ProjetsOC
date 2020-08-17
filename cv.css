@@ -1,0 +1,406 @@
+
+
+body{
+	display: flex;
+	width: 1280px;
+	margin: auto;
+}
+/*-----------------------------ASIDE-------------------------------------*/
+
+.element1{
+	background-color: #5D4037;
+	position: relative;
+	width: 27%;
+}
+/*-----------------------------ASIDE PORTRAIT-------------------------------------*/
+.portrait {
+    vertical-align: middle;
+    border-radius: 50%;
+    height: 125px;
+    width: 125px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+}
+/*-----------------------------ASIDE CONTACT-------------------------------------*/
+.contact{
+	display: flex;
+	flex-direction: column;
+}
+.contact h2{
+	text-align: center;
+	background-color: #FFAB00;
+	text-transform: uppercase;
+	margin-bottom: 0;
+}
+.contact p{
+	margin-left: 20px;
+	font-weight: bold;
+	color: beige;
+}
+a{
+	text-decoration: none;
+	color: beige;
+}
+a:hover{
+	color: #D50000;
+}
+/*-----------------------------ASIDE PROPOS-------------------------------------*/
+.propos{
+	display: flex;
+	flex-direction: column;
+}
+.propos h2{
+	text-align: center;
+	background-color: #FFAB00;
+	text-transform: uppercase;
+}
+.propos p{
+	margin: 0;
+	width: 85%;
+	padding-top: 5px;
+	padding-left: 20px;
+	text-align: justify;
+	color:beige;
+}
+.profil{
+	display: none;
+}
+
+
+/*-----------------------------ASIDE LOISIRS-------------------------------------*/
+.loisirs{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	height: 110px;
+}
+.loisirs h2{
+	text-align: center;
+	text-transform: uppercase;
+	background-color: #FFAB00;
+}
+.icones{
+	text-align: center;
+}
+.icones i{
+	padding-top: 0;
+
+}
+/*---------------------------------------------------------------------------------  PRINCIPALE----------------------------------------------------------------------------------------*/
+
+/*-----------------------------HEADER-------------------------------------*/
+header .portrait{
+	display: none;
+}
+header{
+	display: flex;
+	flex-direction: column;
+	font-size: 2em;
+	text-transform: uppercase;
+    margin-left: 40px;
+}
+header h1{
+	margin-bottom: 0;
+}
+header p{
+	font-size: 0.8em;
+	margin: 0%;
+}
+.jerome{
+	color: #FFAB00;
+}
+.develop{
+	text-decoration: underline #FFAB00;
+}
+
+/*-------------------------SECTION FORMATION--------------------------------*/
+#formation{
+	margin-top: 50px;
+	margin-left: 40px;
+	width: 90%;
+}
+#formation i{
+	text-transform: uppercase;
+}
+#formation article i{
+	text-transform: none;
+}
+.form{
+	
+	margin-left: 10px;	
+}
+.openclassrooms{
+	display: flex;
+	flex-wrap: wrap;
+	border-top:  solid 2px #FFAB00;
+	margin-top: 10px;
+	padding-top: 30px;
+}
+.fas{
+	padding-top: 15px;
+	width: 32%;
+}
+.annee{
+	margin-left: 10px;
+}	
+.titreopen{
+	padding-top: 15px;
+	margin-top: 0;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+.openclassrooms p{
+	margin: 0;
+	margin-left: 32%;
+    width: 65%;
+    font-size: 0.8em;
+    text-align: justify;
+}
+.education{
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 10px;
+}
+.annee2{
+	margin-left: 10px;
+}
+.titreeduc{
+	padding-top: 15px;
+	margin-top: 0;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}	
+.education p{
+	margin: 0;
+	margin-left: 32%;
+    width: 65%;
+    font-size: 0.8em;
+    text-align: justify;
+}
+/*---------------------------------------------------------------------------------SECTION EXPERIENCE----------------------------------------------------------------------------------------*/
+#experience{
+	margin-top: 50px;
+	margin-left: 40px;
+	width: 90%;
+}
+#experience i{
+	text-transform: uppercase;
+}
+#experience article i{
+	text-transform: none;
+}
+.expe{
+	margin-left: 10px;	
+}
+.clearchannel{
+	display: flex;
+	flex-wrap: wrap;
+	border-top:  solid 2px #FFAB00;
+	margin-top: 10px;
+	padding-top: 30px;
+}
+.annee3{
+	margin-left: 10px;
+}	
+.titreccf{
+	padding-top: 15px;
+	margin-top: 0;
+	margin-bottom: 0;
+	text-transform: uppercase;
+}	
+.clearchannel p{
+	margin: 0;
+	margin-left: 32%;
+    width: 65%;
+    font-size: 0.8em;
+    text-align: justify;
+}
+.armee{
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 10px;
+}
+.annee4{
+	margin-left: 10px;
+}	
+.titrearmee{
+	padding-top: 15px;
+	margin-top: 0;
+	margin-bottom: 0;
+	text-transform: uppercase;
+}	
+.armee p{
+	margin: 0;
+	margin-left: 32%;
+    width: 65%;
+    font-size: 0.8em;
+	text-align: justify;
+}
+.compagnon{
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 10px;
+}
+.annee5{
+	margin-left: 10px;
+}	
+.titrecompagnon{
+	padding-top: 15px;
+	margin-top: 0;
+	margin-bottom: 0;
+	text-transform: uppercase;
+}	
+.compagnon p{
+	margin: 0;
+	margin-left: 32%;
+    width: 65%;
+    font-size: 0.8em;
+	text-align: justify;
+}
+.devoir{
+	display: none;
+}
+
+/*---------------------------------------------------------------------------------SECTION COMPETENCES----------------------------------------------------------------------------------------*/
+footer{
+	margin-top: 50px;
+	margin-left: 40px;
+	width: 90%;
+}
+footer i{
+	text-transform: uppercase;
+}
+.compet{
+	margin-left: 10px;	
+}
+.competence{
+	display: flex;
+	justify-content: space-around;
+	border-top:  solid 2px #FFAB00;
+	margin-top: 10px;
+	padding-top: 30px;
+}
+.competence i{
+	padding-top: 0;
+
+}
+.informatique{
+	display: flex;
+}
+.informatique p{
+	margin: 0;
+	padding-left: 5px;
+}
+.management{
+	display: flex;
+}
+.management p{
+	margin: 0;
+	padding-left: 5px;
+}
+
+/*---------------------------------------------------------------------------------SECTION PETIT ECRAN----------------------------------------------------------------------------------------*/
+
+@media all and (max-width: 768px)
+{
+
+	body{
+		display: flex;
+		flex-direction: column-reverse;
+		width: 100%;
+
+	}
+	header{
+			padding-top: 20px;
+			margin-left: 0;
+	
+	}
+	header h1{
+			margin-top: 0;
+			text-align: center;
+	
+	}
+	header p{
+			text-align: center;
+	
+	}
+	header .portrait{
+		vertical-align: middle;
+		border-radius: 50%;
+		height: 125px;
+		width: 125px;
+		overflow: hidden;
+		display: flex;
+		justify-content: center;
+		margin: 10px auto;
+	}
+	aside .portrait{
+		display: none;
+	}
+	#formation{
+		margin-top: 10px;
+	}
+	.compagnon{
+		display: none;
+	}
+	.devoir{
+		display: flex;
+		flex-wrap: wrap;
+		margin-top: 10px;
+	}
+	.annee5{
+		margin-left: 10px;
+	}	
+	.titredevoir{
+		padding-top: 15px;
+		margin-top: 0;
+		margin-bottom: 0;
+		text-transform: uppercase;
+	}	
+	.devoir p{
+		margin: 0;
+		margin-left: 32%;
+		width: 65%;
+		font-size: 0.8em;
+		text-align: justify;
+	}
+	.competence{
+		margin-bottom: 25px;
+	}
+	.element1{
+		display: flex;
+		flex-wrap: wrap;
+		width: 100%;
+	}
+	.contact{
+		width: 50%;
+	}
+	.profil{
+		width: 50%;
+	}
+	.propos{
+		display: none;
+	}
+	.profil{
+		display: flex;
+		flex-direction: column;
+	}
+	.profil h2{
+		text-align: center;
+		background-color: #FFAB00;
+		text-transform: uppercase;
+	}
+	.profil p{
+		margin: 0;
+		width: 85%;
+		padding-top: 5px;
+		padding-left: 20px;
+		text-align: justify;
+		color:beige;
+	}
+
+	
+		
+}

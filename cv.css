@@ -200,6 +200,9 @@ header p{
 .expe{
 	margin-left: 10px;	
 }
+.channel{
+	display: none;
+}
 .clearchannel{
 	display: flex;
 	flex-wrap: wrap;
@@ -310,6 +313,19 @@ footer i{
 	padding-left: 5px;
 }
 
+/*---------------------------------------------------------------------------------SECTION ECRAN MOYEN----------------------------------------------------------------------------------------*/
+@media all and (max-width: 1024px)
+{
+
+
+body{
+	display: flex;
+	width: 100%;
+	}	
+
+}
+
+
 /*---------------------------------------------------------------------------------SECTION PETIT ECRAN----------------------------------------------------------------------------------------*/
 
 @media all and (max-width: 768px)
@@ -350,6 +366,32 @@ footer i{
 	}
 	#formation{
 		margin-top: 10px;
+	}
+	.clearchannel{
+		display: none;
+	}
+	.channel{
+		display: flex;
+		flex-wrap: wrap;
+		border-top:  solid 2px #FFAB00;
+		margin-top: 10px;
+		padding-top: 30px;
+	}
+	.annee3{
+		margin-left: 10px;
+	}	
+	.titrechannel{
+		padding-top: 15px;
+		margin-top: 0;
+		margin-bottom: 0;
+		text-transform: uppercase;
+	}	
+	.channel p{
+		margin: 0;
+		margin-left: 32%;
+		width: 65%;
+		font-size: 0.8em;
+		text-align: justify;
 	}
 	.compagnon{
 		display: none;

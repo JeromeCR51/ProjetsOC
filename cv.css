@@ -287,16 +287,15 @@ footer i{
 .compet{
 	margin-left: 10px;	
 }
-.competence{
+#competence{
 	display: flex;
 	justify-content: space-around;
 	border-top:  solid 2px #FFAB00;
 	margin-top: 10px;
 	padding-top: 30px;
 }
-.competence i{
+#competence i{
 	padding-top: 0;
-
 }
 .informatique{
 	display: flex;
@@ -314,7 +313,7 @@ footer i{
 }
 
 /*---------------------------------------------------------------------------------SECTION ECRAN MOYEN----------------------------------------------------------------------------------------*/
-@media all and (max-width: 1024px)
+@media all and (max-width: 1200px)
 {
 
 

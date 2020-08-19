@@ -115,18 +115,31 @@ header p{
 	text-decoration: underline #FFAB00;
 }
 
-/*-------------------------SECTION FORMATION--------------------------------*/
-#formation{
+section, footer {
 	margin-top: 50px;
 	margin-left: 40px;
 	width: 90%;
 }
-#formation h3{
-	margin: 0;
+section h2, footer h2 {
+	margin: 0 0 20px;
+	padding-bottom: 10px;
+	border-bottom:  solid 2px #FFAB00;
+
 }
-#formation i{
+h2 i{
 	text-transform: uppercase;
 }
+section article .fas{
+	padding-top: 15px;
+	width: 32%;
+}
+section article, footer div {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 10px;
+}
+/*-------------------------SECTION FORMATION--------------------------------*/
+
 #formation article i{
 	text-transform: none;
 }
@@ -134,17 +147,7 @@ header p{
 	
 	margin-left: 10px;	
 }
-.openclassrooms{
-	display: flex;
-	flex-wrap: wrap;
-	border-top:  solid 2px #FFAB00;
-	margin-top: 10px;
-	padding-top: 30px;
-}
-.fas{
-	padding-top: 15px;
-	width: 32%;
-}
+
 .annee{
 	margin-left: 10px;
 }	
@@ -160,11 +163,6 @@ header p{
     width: 65%;
     font-size: 0.8em;
     text-align: justify;
-}
-.education{
-	display: flex;
-	flex-wrap: wrap;
-	margin-top: 10px;
 }
 .annee2{
 	margin-left: 10px;
@@ -183,17 +181,7 @@ header p{
     text-align: justify;
 }
 /*---------------------------------------------------------------------------------SECTION EXPERIENCE----------------------------------------------------------------------------------------*/
-#experience{
-	margin-top: 50px;
-	margin-left: 40px;
-	width: 90%;
-}
-#experience h3{
-	margin: 0;
-}
-#experience i{
-	text-transform: uppercase;
-}
+
 #experience article i{
 	text-transform: none;
 }
@@ -202,13 +190,6 @@ header p{
 }
 .channel{
 	display: none;
-}
-.clearchannel{
-	display: flex;
-	flex-wrap: wrap;
-	border-top:  solid 2px #FFAB00;
-	margin-top: 10px;
-	padding-top: 30px;
 }
 .annee3{
 	margin-left: 10px;
@@ -226,11 +207,6 @@ header p{
     font-size: 0.8em;
     text-align: justify;
 }
-.armee{
-	display: flex;
-	flex-wrap: wrap;
-	margin-top: 10px;
-}
 .annee4{
 	margin-left: 10px;
 }	
@@ -246,11 +222,6 @@ header p{
     width: 65%;
     font-size: 0.8em;
 	text-align: justify;
-}
-.compagnon{
-	display: flex;
-	flex-wrap: wrap;
-	margin-top: 10px;
 }
 .annee5{
 	margin-left: 10px;
@@ -273,43 +244,19 @@ header p{
 }
 
 /*---------------------------------------------------------------------------------SECTION COMPETENCES----------------------------------------------------------------------------------------*/
-footer{
-	margin-top: 50px;
-	margin-left: 40px;
-	width: 90%;
-}
-footer h3{
-	margin: 0;
-}
-footer i{
-	text-transform: uppercase;
-}
+
 .compet{
 	margin-left: 10px;	
 }
-#competence{
-	display: flex;
+footer .content {
 	justify-content: space-around;
-	border-top:  solid 2px #FFAB00;
-	margin-top: 10px;
-	padding-top: 30px;
 }
-#competence i{
-	padding-top: 0;
+footer h3 {
+	font-weight: normal;
 }
-.informatique{
-	display: flex;
-}
-.informatique p{
+footer i {
 	margin: 0;
-	padding-left: 5px;
-}
-.management{
-	display: flex;
-}
-.management p{
-	margin: 0;
-	padding-left: 5px;
+	padding-right: 5px;
 }
 
 /*---------------------------------------------------------------------------------SECTION ECRAN MOYEN----------------------------------------------------------------------------------------*/
@@ -366,15 +313,8 @@ body{
 	#formation{
 		margin-top: 10px;
 	}
-	.clearchannel{
+	article h3 .mini {
 		display: none;
-	}
-	.channel{
-		display: flex;
-		flex-wrap: wrap;
-		border-top:  solid 2px #FFAB00;
-		margin-top: 10px;
-		padding-top: 30px;
 	}
 	.annee3{
 		margin-left: 10px;
@@ -391,14 +331,6 @@ body{
 		width: 65%;
 		font-size: 0.8em;
 		text-align: justify;
-	}
-	.compagnon{
-		display: none;
-	}
-	.devoir{
-		display: flex;
-		flex-wrap: wrap;
-		margin-top: 10px;
 	}
 	.annee5{
 		margin-left: 10px;

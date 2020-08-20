@@ -12,7 +12,22 @@ body{
 	position: relative;
 	width: 27%;
 }
-/*-----------------------------ASIDE PORTRAIT-------------------------------------*/
+.element1 h2{
+	text-align: center;
+	background-color: #FFAB00;
+	text-transform: uppercase;	
+	margin-bottom: 0;
+}
+.element1 p{
+	margin-left: 20px;
+	font-weight: bold;
+	color: beige;
+	text-align: justify;
+	width: 85%;
+}
+.element, .profil{
+	display: none;
+}
 .portrait {
     vertical-align: middle;
     border-radius: 50%;
@@ -23,22 +38,6 @@ body{
     justify-content: center;
     margin: 10px auto;
 }
-/*-----------------------------ASIDE CONTACT-------------------------------------*/
-.contact{
-	display: flex;
-	flex-direction: column;
-}
-.contact h2{
-	text-align: center;
-	background-color: #FFAB00;
-	text-transform: uppercase;
-	margin-bottom: 0;
-}
-.contact p{
-	margin-left: 20px;
-	font-weight: bold;
-	color: beige;
-}
 a{
 	text-decoration: none;
 	color: beige;
@@ -46,48 +45,12 @@ a{
 a:hover{
 	color: #D50000;
 }
-/*-----------------------------ASIDE PROPOS-------------------------------------*/
-.propos{
-	display: flex;
-	flex-direction: column;
-}
-.propos h2{
-	text-align: center;
-	background-color: #FFAB00;
-	text-transform: uppercase;
-}
-.propos p{
-	margin: 0;
-	width: 85%;
-	padding-top: 5px;
-	padding-left: 20px;
-	text-align: justify;
-	color:beige;
-}
-.profil{
-	display: none;
-}
-
-
-/*-----------------------------ASIDE LOISIRS-------------------------------------*/
-.loisirs{
-	width: 100%;
-	display: flex;
-	flex-direction: column;
-	height: 110px;
-}
-.loisirs h2{
-	text-align: center;
-	text-transform: uppercase;
-	background-color: #FFAB00;
-}
 .icones{
-	text-align: center;
+display: flex;
+justify-content: space-around;
+margin-top: 40px;
 }
-.icones i{
-	padding-top: 0;
 
-}
 /*---------------------------------------------------------------------------------  PRINCIPALE----------------------------------------------------------------------------------------*/
 
 /*-----------------------------HEADER-------------------------------------*/

@@ -101,116 +101,27 @@ section article, footer div {
 	flex-wrap: wrap;
 	margin-top: 10px;
 }
-/*-------------------------SECTION FORMATION--------------------------------*/
-
-#formation article i{
-	text-transform: none;
+section article p{
+	margin: 0;
+	margin-left: 32%;
+    width: 65%;
+    font-size: 0.8em;
+    text-align: justify;
 }
-.form{
-	
-	margin-left: 10px;	
-}
-
-.annee{
-	margin-left: 10px;
-}	
-.titreopen{
+section article h3{
 	padding-top: 15px;
 	margin-top: 0;
     margin-bottom: 0;
     text-transform: uppercase;
 }
-.openclassrooms p{
-	margin: 0;
-	margin-left: 32%;
-    width: 65%;
-    font-size: 0.8em;
-    text-align: justify;
-}
-.annee2{
+.annee, .annee2, .annee3, .annee4, .annee5, .expe, .form, .compet{
 	margin-left: 10px;
 }
-.titreeduc{
-	padding-top: 15px;
-	margin-top: 0;
-    margin-bottom: 0;
-    text-transform: uppercase;
-}	
-.education p{
-	margin: 0;
-	margin-left: 32%;
-    width: 65%;
-    font-size: 0.8em;
-    text-align: justify;
-}
-/*---------------------------------------------------------------------------------SECTION EXPERIENCE----------------------------------------------------------------------------------------*/
-
-#experience article i{
-	text-transform: none;
-}
-.expe{
-	margin-left: 10px;	
-}
-.channel{
+.channel, .devoir{
 	display: none;
 }
-.annee3{
-	margin-left: 10px;
-}	
-.titreccf{
-	padding-top: 15px;
-	margin-top: 0;
-	margin-bottom: 0;
-	text-transform: uppercase;
-}	
-.clearchannel p{
-	margin: 0;
-	margin-left: 32%;
-    width: 65%;
-    font-size: 0.8em;
-    text-align: justify;
-}
-.annee4{
-	margin-left: 10px;
-}	
-.titrearmee{
-	padding-top: 15px;
-	margin-top: 0;
-	margin-bottom: 0;
-	text-transform: uppercase;
-}	
-.armee p{
-	margin: 0;
-	margin-left: 32%;
-    width: 65%;
-    font-size: 0.8em;
-	text-align: justify;
-}
-.annee5{
-	margin-left: 10px;
-}	
-.titrecompagnon{
-	padding-top: 15px;
-	margin-top: 0;
-	margin-bottom: 0;
-	text-transform: uppercase;
-}	
-.compagnon p{
-	margin: 0;
-	margin-left: 32%;
-    width: 65%;
-    font-size: 0.8em;
-	text-align: justify;
-}
-.devoir{
-	display: none;
-}
-
 /*---------------------------------------------------------------------------------SECTION COMPETENCES----------------------------------------------------------------------------------------*/
 
-.compet{
-	margin-left: 10px;	
-}
 footer .content {
 	justify-content: space-around;
 }
@@ -279,38 +190,6 @@ body{
 	article h3 .mini {
 		display: none;
 	}
-	.annee3{
-		margin-left: 10px;
-	}	
-	.titrechannel{
-		padding-top: 15px;
-		margin-top: 0;
-		margin-bottom: 0;
-		text-transform: uppercase;
-	}	
-	.channel p{
-		margin: 0;
-		margin-left: 32%;
-		width: 65%;
-		font-size: 0.8em;
-		text-align: justify;
-	}
-	.annee5{
-		margin-left: 10px;
-	}	
-	.titredevoir{
-		padding-top: 15px;
-		margin-top: 0;
-		margin-bottom: 0;
-		text-transform: uppercase;
-	}	
-	.devoir p{
-		margin: 0;
-		margin-left: 32%;
-		width: 65%;
-		font-size: 0.8em;
-		text-align: justify;
-	}
 	.competence{
 		margin-bottom: 25px;
 	}
@@ -344,6 +223,9 @@ body{
 		padding-left: 20px;
 		text-align: justify;
 		color:beige;
+	}
+	.loisirs{
+		width: 100%;
 	}
 
 	

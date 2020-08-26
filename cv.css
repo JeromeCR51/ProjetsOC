@@ -48,7 +48,7 @@ a:hover{
 .icones{
 display: flex;
 justify-content: space-around;
-margin-top: 40px;
+padding-top: 40px;
 }
 
 /*---------------------------------------------------------------------------------  PRINCIPALE----------------------------------------------------------------------------------------*/
@@ -198,10 +198,7 @@ body{
 		flex-wrap: wrap;
 		width: 100%;
 	}
-	.contact{
-		width: 50%;
-	}
-	.profil{
+	.contact, .profil{
 		width: 50%;
 	}
 	.propos{
@@ -227,7 +224,39 @@ body{
 	.loisirs{
 		width: 100%;
 	}
+	.icones{
+		display: flex;
+		justify-content: space-around;
+		}
 
 	
 		
+}
+
+@media all and (max-width: 320px)
+{
+	
+	.element1 {
+		flex-direction: column;
+		display: flex;
+		width: 100%;
+	}
+	section article p{
+		margin: 0;
+		padding-top: 20px;
+		/*margin-left: 32%;*/
+		width: 84%;
+		font-size: 1.2em;
+		text-align: justify;
+	}
+	.contact, .profil{
+		width: 100%;
+	}
+	
+
+
+
+
+
+
 }

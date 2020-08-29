@@ -12,7 +12,7 @@ body{
 .element1{
 	background-color: #5D4037;
 	position: relative;
-	width: 27%;
+	width: 30%;
 }
 .element1 h2{
 	text-align: center;
@@ -150,7 +150,9 @@ body{
 		justify-content: space-around;
 		padding-top: 20px;
 	}	
-
+	.element1{
+		width:fit-content;
+	}
 }
 
 

@@ -52,6 +52,11 @@ display: flex;
 justify-content: space-around;
 padding: 20px 0;
 }
+.loisirs i{
+	border: solid 1px white;
+    border-radius: 50%;
+    padding: 10px;
+}
 
 /*---------------------------------------------------------------------------------  PRINCIPALE----------------------------------------------------------------------------------------*/
 
@@ -116,7 +121,7 @@ section article h3{
     margin-bottom: 0;
     text-transform: uppercase;
 }
-.annee, .annee2, .annee3, .annee4, .annee5, .expe, .form, .compet{
+.margin{
 	margin-left: 10px;
 }
 .channel, .devoir{
